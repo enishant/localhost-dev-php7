@@ -33,4 +33,7 @@ A simple Vagrant LAMP setup with PHP 7.1 running on Ubuntu Trusty 64.
 ````
 - Navigate to ``http://localhost.local/``
 - Navigate to ``http://example.com/``
+- Navigate to ``http://www.example.com/``
+- Navigate to ``http://example.com/phpmyadmin`` (both username and password are 'root')
+- Navigate to ``http://www.example.com/phpmyadmin`` (both username and password are 'root')
 - Navigate to ``http://phpmyadmin.localhost.local/`` (both username and password are 'root')
