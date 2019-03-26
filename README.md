@@ -26,9 +26,9 @@ A simple Vagrant LAMP setup with PHP 7.1 running on Ubuntu Trusty 64.
 - Run ``vagrant provision --provision-with example.com``
 - Add the following lines to your hosts file:
 ````
-192.168.1.110 localhost.local
-192.168.1.110 phpmyadmin.localhost.local
-192.168.1.110 example.com
+192.168.10.10 localhost.local
+192.168.10.10 phpmyadmin.localhost.local
+192.168.10.10 example.com
 ````
 - Navigate to ``http://localhost.local/``
 - Navigate to ``http://example.com/``
