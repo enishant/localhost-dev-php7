@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   # Do some network configuration
-  config.vm.network "private_network", ip: "192.168.1.110"
+  config.vm.network "private_network", ip: "192.168.10.10"
 
   # Assign a quarter of host memory and all available CPU's to VM
   # Depending on host OS this has to be done differently.
