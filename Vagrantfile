@@ -30,6 +30,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Setup Development Environment
   config.vm.provision :shell, :path => "bootstrap.sh"
 
+  config.vm.provision "wpcli-install",
+    type: "shell",
+    path: "wpcli.sh",
+    preserve_order: true
+
+  config.vm.provision "wpcli-update",
+    type: "shell",
+    inline: "wp cli update",
+    preserve_order: true
+
   # Virtual Hosts - Start
 
   config.vm.provision "example.com",
