@@ -47,5 +47,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     path: "virtualhosts/example.com.sh",
     preserve_order: true
 
+
+  config.vm.provision "wordpressexample.com",
+    type: "shell",
+    path: "virtualhosts/wordpressexample.com.sh",
+    preserve_order: true
+
   # Virtual Hosts - End
 end
