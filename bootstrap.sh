@@ -19,7 +19,8 @@ sudo add-apt-repository ppa:chris-lea/redis-server
 Update
 
 echo "-- Install NodeJS --"
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 
 echo "-- Install packages --"
 sudo apt-get install -y --force-yes apache2 mysql-server git-core nodejs rabbitmq-server redis-server
