@@ -51,7 +51,7 @@ define( 'FS_METHOD', 'direct' );
 PHP
 
 # Install WordPress
-wp core install --url=www.$DOMAIN_NAME --title=$DOMAIN_NAME --admin_user=nishant --admin_password=password --admin_email=nishant@vaity.tech --skip-email --allow-root
+wp core install --url=www.$DOMAIN_NAME --title=$DOMAIN_NAME --admin_user=nishant --admin_password=password --admin_email=nishant@wordpressexample.com --skip-email --allow-root
 
 # Rewrite Rule
 wp rewrite flush --allow-root
